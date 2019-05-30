@@ -1,0 +1,23 @@
+<?php
+return [
+'md'	=>	'Managing Director',
+'md.name'	=>	'Mr. SEANG SAMBATH',
+'md.background'	=>	'Mr. Sambath has been working in Top Manpower Co.,Ltd from 2008 until now. Mr. Sambath graduated in Bachelor of Information Technology at Build Bright University in 2007 and completed the diploma of English in 2010. Mr. Sambath is well-experienced in worker and trainee management and leadership for 12 years.',
+'ad'	=>	'Head of the Administration section',
+'ad.name'	=>	'Mr. Chan Khemra',
+'ad.background'	=>	'Mr. Khemra joined Top Manpower in 2010. He earned Bachelor of Marketing in 2012 and has completed the English language certificate. Since joining Top Manpower team, Mr. Khemra primarily deals with the administrative jobs. He was promoted to be head of the administration section in 2015.',
+'hrm'	=>	'Head of the Human Resource management Section',
+'hrm.name'=>'Mr. You Chidara',
+'hrm.background'	=>	'Dara has been working in Top Manpower Co,Ltd since 2014. Before, He worked as Shipping Staff in M&V international Manufacturing. Dara successfully graduated in Bachelor of Banking and Finance in 2014 and English language certificate in 2012. Dara has the passion in managing the staff and organizational leadership. Due to his competency, Dara was appointed to be the head of HR section in 2015.',
+'fd'	=>	'Head of the Finance Section',
+'fd.name'=>'Mrs. Say Chakriya ',
+'fd.background'	=>	'Chakriya has been working with Top Manpower since 2015.  She graduated in bachelor of Accounting in 2010 and English and Chinese in 2009. Chakriya has been trained as tax expert in Cambodia from National Tax School in Cambodia.',
+'mkd'	=>	'Head of the Marketing Section',
+'mkd.name'=>'Mr. Dy Chandara',
+'mkd.background'	=>	'Mr. Dara decided to join Top Manpower in 2011. He has been working as cashier in one of the international companies in Cambodia from 2008 to 2011 and completed Bachelor of General Management in 2013 and also finished English diploma in 2012. ',
+'td'	=>	'Head of the Training Section',
+'td.name'=>'Ms.Phoeun Sopheap ',
+'td.background'	=>	'Ms. Sopheap has been working at Top Manpower since 2009. Sopheap finished bachelor of English literature at University of Human Resource in 2009. In the last 12 years, Sopheap is well-experienced in domestic worker and trainee management. She is  also good at counselling.',
+'email'	=>	'Email:',
+'profile'	=>	'Profile',
+];
