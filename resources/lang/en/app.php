@@ -1,4 +1,4 @@
-<?php  
+<?php
 return [
 'signout'	=>	'Sign-Out',
 'register'	=>	'Register',
@@ -22,7 +22,8 @@ return [
 'kh'		=>	"Khmer",
 'en'		=>	"English",
 'th'		=>	"Thai",
-'ch'		=>	'Chinese',		
+'ch'		=>	'Chinese',
+'jp'		=>	'Japanese',	
 'ja'	=>	"Job Annoucement",
 'login'		=>	"Login",
 'tmp'	=>	'Top Manpower Co.,Ltd. 	',
@@ -72,7 +73,7 @@ return [
 'enteremail'	=>	'Enter Email',
 'morequestion'	=>	'More Questions ??',
 'message'	=>	'Messages :',
-'activities'	=>	'Activities',	
+'activities'	=>	'Activities',
 'mboc'	=>	'Management board of Company',
 'login.employee'=>	'Login As Employee',
 'login.employer'=>	'Login As Employer',

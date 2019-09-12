@@ -57,9 +57,9 @@
             <div class="row">
               <div class="col-md-8">
                 <div class="row">
-                   <div class="col-md-5">
-                    <img src="img/management/b_bath_home.jpg" class="imageborder img-responsive">
-                </div>
+                  <div class="col-md-5">
+                    <!-- <img src="img/management/b_bath_home.jpg" class="imageborder img-responsive"> -->
+                  </div>
                 <div class="col-md-7">
                     <p style="font-size:16px">{{trans('home.message.dear')}}</p>
                     <p class="just-style">{{ trans('app.tmp') }} {{ trans('home.message.topic') }}</p>

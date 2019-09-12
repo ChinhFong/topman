@@ -25,6 +25,7 @@ return [
 'en'		=>	"英语",
 'th'		=>	" 泰国",
 'ch'		=>	'中文',
+'jp'		=>	'日本',	
 'login'		=>	"ចូល",
 'viewbtn'	=>	'观看',
 'tmp'	=>	'TOP Manpower',

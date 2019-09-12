@@ -13,17 +13,18 @@
                   <?php
                     $lo="";
                     if(App::getLocale() == 'en'){$lo="en";}else if(App::getLocale() == 'th'){$lo="th";}
-                    else if(App::getLocale()=="ch"){$lo="ch";}else{ $lo="kh";}
+                    else if(App::getLocale()=="ch"){$lo="ch";}else if(App::getLocale() == 'jp'){$lo="jp";}else{ $lo="kh";}                    
                   ?>
                   <button id="dLabel" class="languages" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="image-font">
                   {{trans('app.'.$lo)}}
                   <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu dropdown-hover" style="left:105px;" aria-labelledby="dLabel">
-                    <li class="kh" ><img src="img/icon-flag/khmer.png">{{ trans('app.kh') }} </li>
+                    <li class="kh"><img src="img/icon-flag/khmer.png">{{ trans('app.kh') }} </li>
                     <li class="en"><img src="img/icon-flag/english.png">{{ trans('app.en') }}</li>
                     <li class="th"><img src="img/icon-flag/thai_flag.png">{{ trans('app.th') }}</li>
                     <li class="ch"><img src="img/icon-flag/chinese.png">{{ trans('app.ch') }}</li>
+                    <li class="jp"><img src="img/icon-flag/jp.png" >{{ trans('app.jp') }}</li>
                   </ul>
                 {{-- <select class="form-control selectpicker animated fadeIn animation-delay-6 localefont" name='locale' id='locale' onchange="this.form.submit()" style="border-radius: 5px;;">
                 <option class="en" value="en">{{ trans('app.en') }}</option>

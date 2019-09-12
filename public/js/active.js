@@ -37,6 +37,10 @@ if(cl=="en"){
   $('.localefont').css('font-family','"楷体",Open Sans, sans-serif');
   $('.image-font').attr('src','img/icon-flag/chinese.png');
   document.body.style.fontFamily="'楷体'";
+}else if(cl=="jp"){
+  $('.localefont').css('font-family','"楷体",Open Sans, sans-serif');
+  $('.image-font').attr('src','img/icon-flag/jp.png');
+  document.body.style.fontFamily="'楷体'";
 }else{
   $('.localefont').css('font-family','khmeroscontent');
   $('.image-font').attr('src','img/icon-flag/khmer.png');
@@ -60,6 +64,11 @@ $('.th').click(function(){
 });
 $('.ch').click(function(){
   setLocale($('#locale'),'ch');
+  $('.lang').submit();
+});
+$('.jp').click(function(){
+  console.log('hello');
+  setLocale($('#locale'),'jp');
   $('.lang').submit();
 });
 
